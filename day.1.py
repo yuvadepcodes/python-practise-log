@@ -43,3 +43,4 @@ age=int(input("what is your age"))
 age=age+1
 print(f"hello {name} How Are You")
 print(f"Happ Birthday You are {age} Years old")
+#day 1 in setting up, creating a repo, cloning it and started with basis like data types, variables and input function. 
