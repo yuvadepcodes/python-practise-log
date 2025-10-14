@@ -44,3 +44,21 @@ age=age+1
 print(f"hello {name} How Are You")
 print(f"Happ Birthday You are {age} Years old")
 #day 1 in setting up, creating a repo, cloning it and started with basis like data types, variables and input function. 
+#practise session 
+
+is_name=bool(name)
+if is_name:
+    print("ok go ahead ")
+else:
+    print("please give a name:")
+if age >=18:
+    print ("you are eligible ")
+else:
+    print("sorry ! you are not eligible:")
+if age >=18:
+    a=input("What Are You Studtying")
+is_a=bool(a)
+if is_a:
+    print("Good Study Well. All The Best!")
+else:
+    print("you are a crackhead!")
