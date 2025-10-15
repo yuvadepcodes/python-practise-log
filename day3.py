@@ -45,3 +45,19 @@ result=math.floor(x)
 print(result)
 result =math.ceil(x)
 print(result)
+
+#circumference of a circle 2pir
+radius=float(input("Enter The Radius Of The Circle"))
+circumference=2*math.pi*radius
+print(f"the circumference of the circle is {round(circumference)} cm")
+
+#area of the circle pi r square
+radius=float(input("Enter The Radius Of The Circele: "))
+area=math.pi*radius
+print(f"The Area Of Your Circle Is: {round(area,2)}")
+
+#finding the hypotenuse
+a=float(input("Enter The First Side Of Your Triangle: "))
+b=float(input("Enter The Secound Side Of Your Triangle: "))
+c=math.sqrt(pow(a,2)+pow(b,2))
+print(f"The Hypotenuse Of The Given Triangle Is {c}cm ")
